@@ -1,0 +1,279 @@
+html, body, header{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    overflow-x: hidden;
+}
+
+.container-fluid{
+    height: auto;
+    background-color: #e9e7e7;
+    padding: 0;
+}
+
+.header-pc .row h1{
+    font-size: 4.5rem;
+}
+
+.header-pc .row button{
+    margin-top: 5%;
+}
+
+.header-pc .row span{
+    font-weight: 200;
+}
+
+.header img{
+    width: 85%;
+    height: 100%;
+}
+
+.creater{
+    background-color: #232323;
+    z-index: 1;
+    text-align: center;
+    color: white;
+}
+
+.creater h1{
+    font-size: 2.5rem;
+    width: 30%;
+    margin-left: 35%;
+}
+
+.creater p{
+    font-weight: 100;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 30%;
+}
+
+.creater button{
+    width: 20%;
+    border: 2px solid #fff;
+    font-weight: bold;
+}
+
+.card-deck .card{
+    width: 30%;
+    height: auto;
+    background-color: #e9e7e7; 
+    border: 0px;
+}
+
+.card-deck .card .card-body h5{
+    width: 60%;
+    font-size: 1.8rem;
+}
+
+.card-deck .card .card-body #line{
+    margin-top: 5%;
+    width: 20%;
+    border-top: 3px solid #000;
+}
+
+.card-deck .card .card-body p{
+    font-weight: 300;
+}
+
+.sologan img{
+    width: 5%;
+    height: 5%;
+}
+
+.sologan h1{
+    font-size: 4.5rem;
+    width: 50%;
+}
+
+.sologan h5{
+    margin-top: 2%;
+}
+
+.information .infor-right{
+    margin-left: -3%;
+}
+
+.information .infor-right .text .infor-item-1{
+    font-size: 2.2rem;
+}
+
+
+.information .infor-right .text .infor-item-2 p{
+    font-size: 0.8rem;
+    margin-bottom: 10%;
+}
+
+.infor-right .arrow img{
+    width: 40%;
+}
+
+.infor-left img{
+    width: 90%;
+    height: auto;
+}
+
+.choosen{
+    background-color: #232323;
+    z-index: 1;
+    color: white;
+}
+
+.choosen .choosen-left{
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 8%;
+    padding-bottom: 3%;
+}
+
+.choosen-left h1{
+    font-size: 3rem;
+}
+
+.choosen-left .choose-item p{
+    font-weight: 200;
+    margin-top: 3%;
+}
+
+.choosen .choosen-right{
+    text-align: right;
+}
+
+.choosen .choosen-right img{
+    width: 100%;
+    height: 90%;
+}
+
+.scrible{
+    margin-top: -7%;
+}
+
+.addmore .addmore-left{
+    margin-left: 5%;
+    text-decoration: none;
+    margin-bottom: 5%;
+}
+
+.addmore .addmore-left a{
+    width: 90%;
+    /* text-decoration: none; */
+    border-top: 1px solid #000;
+    border-radius: 0;
+    text-align: left;
+    padding-top: 2%;
+    padding-left: 3%;
+    height: 5%;
+}
+
+.addmore .addmore-left a svg{
+    width: 30px;
+    height: 30px;
+    margin-top: -1%;
+}
+
+.addmore-left #choose-last-item{
+    border-bottom: 1px solid #000;
+}
+
+.addmore .addmore-left h1{
+    font-size: 3.5rem;
+}
+
+.addmore .addmore-left .addmore-item{
+    cursor: pointer;
+    color: #000;
+}
+
+.addmore .addmore-right{
+    padding-left: 3%;
+}
+
+.addmore .card{
+    background-color: #e9e7e7;
+}
+
+.about .item{
+    width: 80%;
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin-bottom: 10%;
+}
+
+.about h1{
+    width: 85%;
+    font-size: 4rem;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.about .item img{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.about .owl-nav{
+    display: block !important;
+    width: 90.3%;
+}
+
+.owl-nav .owl-prev{
+    position: absolute;
+    left: 0%;
+    top: 35%
+}
+
+.owl-nav .owl-next{
+    position: absolute;
+    right: 4%;
+    top: 35%
+}
+
+.owl-carousel .owl-nav img{
+    background-color: #e9e7e7;
+    width: 4rem;
+}
+
+
+.update h1{
+    font-size: 4rem;
+    margin-left: 20%;
+}
+
+.update input{
+    width: 100%;
+    background-color: #e9e7e7;
+    margin-top: 5%;
+}
+
+.update textarea{
+    width: 100%;
+    height: 150px;
+    background-color: #e9e7e7;
+}
+
+.update form{
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 5%;
+}
+
+.update button{
+    width: 100%;
+    margin-left: 0%;
+}
+
+.update img {
+    width: 70%;
+    height: 85%;
+    margin-right: 10%;
+}
+
+.footer{
+    background-color: #c4c4c4;
+}
+
+.footer .col-md-9 .row{
+    margin-top: 10%;
+}

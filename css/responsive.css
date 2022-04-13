@@ -1,0 +1,376 @@
+/* Tablet */
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+    .sologan h1{
+        font-size: 3rem;
+        width: 80%;
+    }
+
+    .information{
+        margin-left: 0 !important;
+    }
+    
+    .infor-left img{
+        width: 100%;
+        height: 50rem;
+    }
+
+    .infor-right img{
+        width: 93%;
+        height: 22rem;
+        margin-left: 3%;
+    }
+
+    .infor-item-1{
+        font-size: 1.5rem !important;
+    }
+
+    #item-disable,
+    #choose-third-item,
+    #card-3{
+        display: none !important;
+    }
+
+    .card-deck .card{
+        width: 50% !important;
+    }
+
+    .infor-right{
+        width: 70% !important;
+    }
+
+    .infor-right .text{
+        margin-left: 5%;
+    }
+
+    .addmore h1{
+        font-size: 3rem !important;
+    }
+
+    .about .owl-carousel{
+        margin-left: 8% !important;
+        padding-left: 2% !important;
+    }
+
+    .update h1{
+        margin-left: 0;
+        margin-top: 5%;
+    }
+
+    .update form{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .owl-nav .owl-prev{
+        left: -2%;
+    }
+
+    .owl-nav .owl-next{
+        right: 6%;
+    }
+
+}
+
+/* Tablet And Mobile */
+@media only screen and (max-width: 768px) {
+    .header-pc .row{
+        flex-direction: column-reverse;
+        margin-left: 0%;
+    }
+
+    .header img{
+        width: 80% !important;
+    }
+
+    .header-pc .row h1{
+        font-size: 2rem;
+    }
+
+    .creater h1 {
+        font-size: 2.5rem;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .creater p{
+        font-size: 0.7rem;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .card-body h5{
+        width: 90% !important;
+    }
+
+    .card-body .card-text{
+        font-size: 0.7rem;
+    }
+
+    .card-body{
+        font-size: 0.7rem;
+    }
+
+    .infor-right .arrow img{
+        width: 30%;
+        height: 3rem;
+    }
+
+    .choosen .row{
+        padding-top: 0 !important;
+        flex-direction: column-reverse;
+    }
+
+    .choosen-left{
+        text-align: center !important;
+        padding-right: 7%;
+    }
+
+    .choosen-left h1{
+        margin-top: 5%;
+    }
+
+    .scrible{
+        margin-top: -15%;
+    }
+
+    .infor-right .text .infor-item-2{
+        text-align: -webkit-center;
+    }
+
+    .addmore .row{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    
+    .addmore-body{
+        margin-right: 10% !important;
+        font-size: 0.8rem;
+    }
+
+    .addmore-right img{
+        height: 20rem;
+        margin-bottom: 5%;
+    }
+
+    .about h1{
+        width: 100%;
+        font-size: 3rem;
+    }
+
+    .owl-carousel p{
+        font-size: 0.7rem;
+        padding: 0 1rem 0 1rem;
+    }
+
+
+    .header-pc,
+    .information{
+        text-align: center;
+    }
+
+}
+
+/* Mobile */
+@media only screen and (max-width: 46.1875rem) {
+    /* display: none !important */
+    .addmore-left #choose-third-item,
+    .about .owl-nav{
+        display: none !important;
+    }
+
+    /* display: none */
+    .card-deck #card-2,
+    .card-deck #card-3,
+    .infor-item-2 #item-disable,
+    .update img,
+    .header-pc .col-4 span,
+    #item-disable{
+        display: none;
+    }
+
+    .creater h1{
+        font-size: 1.3rem;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .creater p{
+
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .creater button{
+        width: 50%;
+    }
+
+    .sologan img{
+        width: 10%;
+        height: 10%;
+    }
+
+    .sologan h1{
+        font-size: 1.8rem;
+        width: 80%;
+    }
+
+    .sologan h5{
+        font-size: 0.64rem;
+        margin-top: 2%;
+    }
+
+    .information{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .infor-right .text .infor-item-2{
+        text-align: -webkit-center;
+    }
+
+    .infor-left{
+        margin-left: 2% !important;
+        margin-right: 5% !important;
+    }
+
+    .infor-left img{
+        width: 100%;
+        height: 15rem;
+    }
+
+    .infor-right .image img{
+        width: 90%;
+        height: 10rem;
+        margin-left: 3.5%;
+    }
+
+    .infor-right .text h4{
+        padding-left: 7%;
+        font-size: 0.7rem !important;
+    }
+
+    .infor-item-2 p{
+        font-size: 0.7rem !important;
+    }
+
+    .choosen{
+        padding-bottom: 7% !important;
+    }
+
+    .choosen .choosen-left{
+        margin-left: 0 !important;
+    }
+
+    .choosen-left h1{
+        font-size: 1rem;
+        margin-bottom: 5% !important;
+    }
+
+    .choosen-left .choose-item{
+        margin-bottom: 0 !important;
+    }
+
+    .choose-item p{
+        font-size: 0.5rem;
+    }
+
+    .choose-item h5{
+        font-size: 0.8rem;
+    }
+    
+    .addmore{
+        padding-top: 0 !important;
+    }
+
+    .addmore-left{
+        margin-left: 4%;
+    }
+
+    .addmore-left h1{
+        font-size: 1.5rem !important;
+        margin-bottom: 5% !important;
+
+    }
+
+    .addmore-left a{
+        font-size: 0.8rem;
+    }
+
+    .addmore .addmore-left a svg{
+        width: 50px;
+        height: 50px;
+        margin-top: -1%;
+    }
+
+    .addmore-left p{
+        margin-bottom: 3%;
+    }
+
+    .addmore-right{
+        padding-left: 1% !important;
+    }
+
+    .addmore-body{
+        font-size: 0.6rem;
+    }
+
+    .about{
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+
+    .about h1{
+        margin-left: 0 !important;
+        font-size: 1.7rem;
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .about .owl-carousel{
+        margin-left: 15% !important;
+    }
+
+    .owl-item .item{
+        width: 70%;
+    }
+
+    .owl-carousel img{
+        margin-left: 32% !important;
+        width: 5rem !important;
+    }
+
+    .owl-carousel h4{
+        font-size: 1rem;
+    }
+    
+    .update{
+        margin-top: 0 !important;
+    }
+
+    .update h1{
+        margin: 0 0 0 0.5rem;
+        font-size: 2.5rem;
+    }
+
+    .update form{
+        margin: 1.5rem 2.5rem 0 3rem;
+    }
+
+    .footer{
+        padding-top: 2rem !important;
+    }
+
+    .footer h1{
+        font-size: 2rem !important;
+    }
+
+    .footer p{
+        font-size: 0.5rem
+    }
+
+    .footer .col-md-9{
+        text-align: center;
+        font-size: 0.75rem;
+    }
+}
